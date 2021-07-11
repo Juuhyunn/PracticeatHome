@@ -3,6 +3,7 @@ package com.example.demo.practice.math.domain;
 public class Calculator {
     private int num1;
     private int num2;
+    private int result;
     private String opcode;
 
     public void setNum1(int num1) {
@@ -16,6 +17,12 @@ public class Calculator {
     }
     public int getNum2() {
         return num2;
+    }
+    public void setResult(int result) {
+        this.result = result;
+    }
+    public int getResult() {
+        return result;
     }
     public void setOpcode(String opcode) {
         this.opcode = opcode;
